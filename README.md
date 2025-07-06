@@ -60,20 +60,3 @@ We built a smart testing system that:
 
 ---
 
-## 📁 Project Structure
-
-auto-web-tester/
-├── backend/ # Node.js + Express API
-│ ├── server.js
-│ ├── routes/
-│ └── controllers/
-├── ai/ # AI command parsing + MCP context
-│ ├── parser.js
-│ └── mcpHelper.js
-├── frontend/ # React + Tailwind UI
-│ └── src/components/
-├── python-version/ # (Optional) Python automation version
-│ └── test_runner.py
-├── tests/ # Screenshots, test results
-├── .env # OpenAI key
-└── README.md
