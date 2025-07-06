@@ -33,5 +33,47 @@ We built a smart testing system that:
 - 📸 Test result screenshots and logs
 - 📊 User-friendly frontend dashboard (React + Tailwind CSS)
 - ⚡ Fast and easy — anyone can use it in under 5 minutes!
+- 💬 Can be powered by **Node.js or Python** (your choice)
 
+---
 
+## 🧰 Tools & Technologies Required
+
+### ✅ Languages & Frameworks
+- ✅ **Python** (for NLP / LLM integration & optional Playwright)
+- ✅ **JavaScript/TypeScript** (Node.js + Express for backend)
+- ✅ **React.js** (Frontend UI)
+- ✅ **Tailwind CSS** (UI Styling)
+
+### ⚙️ Automation & AI
+- **Playwright** (Browser automation in Node or Python)
+- **OpenAI GPT-4 API** (Natural language understanding)
+- **MCP (Model Context Protocol)** (Smart AI context)
+
+### 🛠️ Developer Tools
+- **Visual Studio Code**
+- **Node.js (v18+)**
+- **Python (v3.10+)**
+- **Git + GitHub**
+- **Postman** (API testing)
+- **npm / pip** (Package managers)
+
+---
+
+## 📁 Project Structure
+
+auto-web-tester/
+├── backend/ # Node.js + Express API
+│ ├── server.js
+│ ├── routes/
+│ └── controllers/
+├── ai/ # AI command parsing + MCP context
+│ ├── parser.js
+│ └── mcpHelper.js
+├── frontend/ # React + Tailwind UI
+│ └── src/components/
+├── python-version/ # (Optional) Python automation version
+│ └── test_runner.py
+├── tests/ # Screenshots, test results
+├── .env # OpenAI key
+└── README.md
